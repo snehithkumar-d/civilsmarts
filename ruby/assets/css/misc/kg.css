@@ -1,0 +1,29 @@
+.kg-toggle-heading-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.has-serif-title .kg-toggle-heading-text {
+    font-family: var(--font-serif);
+}
+
+.kg-toggle-content > * + * {
+    margin: 2.4rem 0 0;
+}
+
+.kg-width-wide,
+.kg-width-full {
+    margin-right: -30px;
+    margin-left: -30px;
+    max-width: calc(100% + 60px);
+    width: auto;
+}
+
+.kg-width-wide img,
+.kg-width-full img {
+    width: 100%;
+}
+
+.kg-image-card .kg-image {
+    cursor: pointer;
+}
